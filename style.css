@@ -103,7 +103,12 @@ body::-webkit-scrollbar {
     background-color: #161c14;
     position: relative;
     margin: -1px;
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
+}
+
+.main h4:hover {
+    cursor: pointer;
 }
 
 .main-content {

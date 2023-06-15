@@ -9,13 +9,13 @@ var timeline = gsap.timeline({
     // end: "200%",
     end: "bottom",
     scrub: 1,
-    duration: 4,
+    duration: 10,
     ease: "slow",
     // toggleActions: "restart none none none",
     pin: ".container",
   },
 });
 timeline.to(".wrapper", {
-  duration: 90,
+  duration: 120,
   transform: "scale(3.5)",
 });
