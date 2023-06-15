@@ -1,17 +1,15 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.defaults({ ease: "none", duration: 2 });
+gsap.defaults({ ease: "none", duration: 5 });
 
 var timeline = gsap.timeline({
   scrollTrigger: {
     trigger: ".wrapper",
     start: "top ",
-    // end: "200%",
     end: "bottom",
-    scrub: 1,
-    duration: 10,
+    scrub: 2,
+    duration: 20,
     ease: "slow",
-    // toggleActions: "restart none none none",
     pin: ".container",
   },
 });

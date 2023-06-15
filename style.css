@@ -71,7 +71,7 @@ body::-webkit-scrollbar {
 .sec-door {
     width: 64%;
     height: 100vh;
-    background-image: url(./Frammer.webp);
+    background-image: url(./img/Frammer.webp);
     background-repeat: no-repeat;
     background-position: 135% 0%;
     background-size: cover;
